@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Support page for MovieRuis — contact, FAQs, and troubleshooting." />
+  <title>MovieRuis Support</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; margin: 0; }
+    header { padding: 32px 16px; border-bottom: 1px solid rgba(127,127,127,.25); }
+    main { max-width: 860px; margin: 0 auto; padding: 24px 16px 56px; line-height: 1.55; }
+    h1 { margin: 0 0 6px; font-size: 28px; }
+    .sub { margin: 0; opacity: .8; }
+    .card { border: 1px solid rgba(127,127,127,.25); border-radius: 12px; padding: 16px; margin: 16px 0; }
+    a { text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code { padding: 2px 6px; border-radius: 6px; background: rgba(127,127,127,.15); }
+    footer { opacity: .75; font-size: 14px; margin-top: 24px; }
+    ul { padding-left: 18px; }
+  </style>
+</head>
+<body>
+  <header>
+    <main>
+      <h1>MovieRuis Support</h1>
+      <p class="sub">Need help? Contact us and we’ll get back to you.</p>
+    </main>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:birak200@gmail.com">birak200@gmail.com</a>
+      </p>
+      <p>
+        Please include your device model (e.g., iPhone 14), iOS version, and what happened right before the issue.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>FAQ</h2>
+
+      <h3>How does MovieRuis work?</h3>
+      <p>
+        Swipe <strong>right</strong> on movies you like and <strong>left</strong> on movies you don’t. MovieRuis learns your preferences and generates personalized recommendations.
+      </p>
+
+      <h3>My recommendations don’t look accurate yet.</h3>
+      <p>
+        This is normal at the beginning. Try swiping on at least <strong>20–30</strong> titles so the app can better understand your taste.
+      </p>
+
+      <h3>The app is slow or not loading content.</h3>
+      <ul>
+        <li>Check your internet connection (Wi-Fi / cellular).</li>
+        <li>Close and re-open the app.</li>
+        <li>Restart your phone.</li>
+        <li>Update to the latest app version (App Store) and iOS version.</li>
+      </ul>
+
+      <h3>I found a bug. What should I send?</h3>
+      <p>
+        A short description, steps to reproduce, and (if possible) a screenshot/screen recording.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Privacy</h2>
+      <p>
+        Privacy Policy: <em>(add link here)</em>
+      </p>
+      <p>
+        Tip: You can publish a <code>privacy.html</code> page in the same repo and link it here.
+      </p>
+    </div>
+
+    <footer>
+      <p>© <span id="year"></span> MovieRuis. All rights reserved.</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
